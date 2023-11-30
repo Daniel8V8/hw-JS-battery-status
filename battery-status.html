@@ -1,0 +1,24 @@
+<script>
+    // 70, 100, 10, 0,001, -100 -Numbers
+
+baterryCharge = 70; // % <---variabile
+
+FULL_BATERY = 100; //100% - fully charged battery
+chargePercentInMinutes = 10; //1% ~ 10 minutes
+chargePercentInHours = 60; //6% ~ 60 minutes
+
+
+etWorkInMinutes     = baterryCharge * chargePercentInMinutes
+
+
+// HW-1
+etWorkInHours = etWorkInMinutes / chargePercentInHours
+
+
+
+// display functions:
+alert( "remaining time (minutes)"  + etWorkInMinutes ) //plain text
+alert("Remaining time (hours): " + etWorkInHours);
+
+// "remaining time (minutes)" - String
+</script>
