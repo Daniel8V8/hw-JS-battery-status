@@ -1,1 +1,1 @@
-# hw-JS-charge-calculate-hs
+# hw-JS-battery-status
